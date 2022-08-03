@@ -8,7 +8,7 @@ import numpy as np
 from numba import jit
 import matplotlib.pyplot as plt
 import scipy.special as sp
-from wlcstat.util import mittag_leffler_master.mittag_leffler
+import wlcstat.util.mittag_leffler_master.mittag_leffler
 from functools import lru_cache
 from pathlib import Path
 import os
